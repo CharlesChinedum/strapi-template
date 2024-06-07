@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "compatible_apps",
+  "info": {
+    "singularName": "compatible-app",
+    "pluralName": "compatible-apps",
+    "displayName": "compatibleApp"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
